@@ -6,7 +6,7 @@ const articleRouter=require("./routes/articles");
 const methodOverride=require("method-override");
 
 
-mongoose.connect('mongodb://localhost/blog',{
+mongoose.connect("mongodb+srv://Prasanna:Prasanna123@cluster0.w886a.mongodb.net/blog?retryWrites=true&w=majority",{
     useUnifiedTopology: true,
     useNewUrlParser: true,
     
