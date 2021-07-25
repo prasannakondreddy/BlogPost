@@ -1,5 +1,6 @@
 const mongoose=require('mongoose');
 
+
 const articleSchema= new mongoose.Schema({
     title:{
         type:String,
@@ -15,7 +16,9 @@ const articleSchema= new mongoose.Schema({
     createdDate:{
         type:Date,
         default:Date.now
-    }
+    },
+    
 })
+
 
 module.exports=mongoose.model('Article',articleSchema)

@@ -1,0 +1,40 @@
+body{
+    background-image : url("image.jpg") ;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.box{
+    background: rgba(34, 78, 36, 0.3);
+}
+.new-btn{
+    background: rgba(34, 78, 36, 0.3);
+    padding-left: ;
+    color: white;
+}
+.new-btn:hover{
+    background: rgba(34, 78, 36, 0.9);
+    color: white;
+}
+.title{
+    color: white;
+}
+.des{
+    color: white;
+}
+.heading{
+    color: rgb(230, 241, 227);
+    font-size: 4rem;
+    padding: 20px;
+    padding-left: 0;
+}
+.button{
+    color: gainsboro;
+}
+.button:hover{
+    background: rgba(34, 78, 36, 0.9);
+    color: white;
+}
